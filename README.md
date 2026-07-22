@@ -91,7 +91,7 @@ This project prioritizes **real UK public data** from regulatory and national st
 ## Technical Architecture & Project Structure
 
 ```
-c:\Projects\consumer-duty-analytics\
+consumer-duty-analytics/
 ├── data/
 │   ├── raw/                 # Real downloaded FCA, FOS, and ONS datasets
 │   └── processed/           # SQLite database (consumer_duty.db)

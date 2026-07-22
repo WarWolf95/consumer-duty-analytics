@@ -5,7 +5,7 @@ This document outlines the layout, metrics, and visual design requirements for t
 ---
 
 ## 1. Design System & Theme
-* **Theme File**: Located at [fca_consumer_duty_theme.json](file:///c:/Projects/consumer-duty-analytics/powerbi/fca_consumer_duty_theme.json).
+* **Theme File**: Located at `powerbi/fca_consumer_duty_theme.json`.
 * **Color Palette**:
   * **Primary (FCA Claret)**: `#701B45` — Used for titles, core KPI cards, table headers, and primary data marks.
   * **Secondary (Gov Blue)**: `#1D70B8` — Used for comparison metrics and peer averages.

@@ -245,7 +245,7 @@ The dashboard should answer the specific questions a Consumer Duty Forum would a
 ## 8. Directory Structure (planned)
 
 ```
-C:\Projects\consumer-duty-analytics\
+consumer-duty-analytics/
 ├── data\
 │   ├── raw\               # Real downloaded datasets (FCA, FOS, ONS XLSX/CSV)
 │   └── processed\         # Star schema CSV exports for Power BI
@@ -304,5 +304,5 @@ C:\Projects\consumer-duty-analytics\
 - **Who to hand over to**: Any data analyst / data engineer familiar with UK financial services
 - **How this capsule is structured**: Sections 1-6 explain the *what* and *why*. Sections 7-9 explain the *how* and *what next*.
 - **Contact**: If continuing from this capsule, read the full conversation log in OpenCode session history (2026-07-15) for nuance on specific discussions about data provenance labelling, the Consumer Duty regulatory framework, and the 4-tier strategy.
-- **OpenCode config**: See `C:\Users\curil\.config\opencode\AGENTS.md` for communication style preferences and UK finance code conventions. OpenCode is running `opencode/deepseek-v4-flash-free` via OpenCode Zen — not configured for Gemini yet.
-- **Previous project reference**: Workforce Planning at `C:\Projects\Workforce Planning & Labour Market Intelligence\` is the template for architecture, code style, and README structure. Refer to it for patterns.
+- **OpenCode config**: See the user's `AGENTS.md` for communication style preferences and UK finance code conventions.
+- **Previous project reference**: The `Workforce Planning & Labour Market Intelligence/` project is the template for architecture, code style, and README structure. Refer to it for patterns.
