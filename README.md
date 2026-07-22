@@ -4,6 +4,7 @@
 [![Database SQLite](https://img.shields.io/badge/Database-SQLite-003B57.svg)](https://www.sqlite.org/)
 [![Power BI Desktop](https://img.shields.io/badge/Power_BI-Desktop-F2C811.svg)](https://powerbi.microsoft.com/)
 [![Regulatory Standard FCA PS22/9](https://img.shields.io/badge/FCA_Reg-PS22%2F9_Consumer_Duty-701B45.svg)](https://www.fca.org.uk/firms/consumer-duty)
+[![CI/CD Pipeline](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF.svg)](.github/workflows/ci.yml)
 [![Build Status Passed](https://img.shields.io/badge/Tests-PyTest_Passed-brightgreen.svg)](tests/test_db.py)
 
 ---
