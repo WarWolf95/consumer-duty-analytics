@@ -23,7 +23,7 @@ Targeted at Heads of Conduct Risk, Product Governance, and Risk Committees, this
 
 ---
 
-## 📊 Power BI 4-Page Executive Dashboard Showcase
+## Power BI 4-Page Executive Dashboard Showcase
 
 The Power BI dashboard is built using a custom **FCA Claret Theme** (`#701B45`) and follows UK enterprise governance standards.
 
@@ -55,7 +55,7 @@ Dedicated 100% visual analytics page tracking whether vulnerable cohorts experie
 
 ---
 
-## 🏛️ Data Strategy & Provenance Architecture
+## Data Strategy & Provenance Architecture
 
 This project prioritizes **real UK public data** from regulatory and national statistics bodies:
 
@@ -87,7 +87,7 @@ This project prioritizes **real UK public data** from regulatory and national st
 
 ---
 
-## 💻 Technical Architecture & Project Structure
+## Technical Architecture & Project Structure
 
 ```
 c:\Projects\consumer-duty-analytics\
@@ -127,7 +127,7 @@ c:\Projects\consumer-duty-analytics\
 
 ---
 
-## 📈 Core DAX Measures & Regulatory Definitions
+## Core DAX Measures & Regulatory Definitions
 
 All DAX formulas avoid formatting type-conversion errors and reside in [reports/dax_measures.md](reports/dax_measures.md):
 
@@ -140,7 +140,7 @@ All DAX formulas avoid formatting type-conversion errors and reside in [reports/
 
 ---
 
-## ⚙️ Quickstart & Local Setup
+## Quickstart & Local Setup
 
 ### 1. Prerequisites
 * Python 3.10+
@@ -169,6 +169,6 @@ python -m pytest
 
 ---
 
-## 📜 Regulatory Reference & Compliance
+## Regulatory Reference & Compliance
 * **FCA Consumer Duty Policy Statement**: [PS22/9 (July 2022)](https://www.fca.org.uk/publication/policy/ps22-9.pdf)
 * **FCA Final Non-Handbook Guidance**: [FG22/5 (July 2022)](https://www.fca.org.uk/publication/finalised-guidance/fg22-5.pdf)
