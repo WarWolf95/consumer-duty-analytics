@@ -1,0 +1,76 @@
+{
+  "name": "FCA Consumer Duty Theme",
+  "dataColors": [
+    "#701B45",
+    "#1D70B8",
+    "#008080",
+    "#D4351C",
+    "#F47738",
+    "#28A745",
+    "#6F72AF",
+    "#B1B4B6"
+  ],
+  "background": "#F8F9FA",
+  "foreground": "#2D2D2D",
+  "tableAccent": "#701B45",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [
+          { "value": "Segoe UI" }
+        ],
+        "color": [
+          { "value": "#2D2D2D" }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F8F9FA" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#701B45" } },
+            "fontSize": 24
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#666666" } },
+            "fontSize": 9
+          }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "legend": [
+          {
+            "show": true,
+            "position": "Top",
+            "fontSize": 9
+          }
+        ]
+      }
+    },
+    "barChart": {
+      "*": {
+        "legend": [
+          {
+            "show": true,
+            "position": "Top",
+            "fontSize": 9
+          }
+        ]
+      }
+    }
+  }
+}
