@@ -132,11 +132,30 @@ c:\Projects\consumer-duty-analytics\
 All DAX formulas avoid formatting type-conversion errors and reside in [reports/dax_measures.md](reports/dax_measures.md):
 
 * **Complaint SLA Compliance (%)**:
-  $$\text{DIVIDE}(\text{CALCULATE}([\text{Total Complaints}], \text{days\_to\_resolve} \le 5), [\text{Total Complaints}], 0)$$
+  ```dax
+  Complaint SLA Compliance (%) = 
+  DIVIDE(
+      CALCULATE([Total Complaints], fact_complaints[days_to_resolve] <= 5),
+      [Total Complaints],
+      0
+  )
+  ```
+
 * **Claims Ratio (%)**:
-  $$\text{DIVIDE}(\text{SUM}(\text{claims\_paid\_amount}), \text{SUM}(\text{premium\_or\_fee}), 0)$$
+  ```dax
+  Claims Ratio (%) = 
+  DIVIDE(
+      SUM(fact_products[claims_paid_amount]),
+      SUM(fact_products[premium_or_fee]),
+      0
+  )
+  ```
+
 * **SLA Disparity Gap (Days)**:
-  $$\text{Avg Resolution Time (Vulnerable)} - \text{Avg Resolution Time (Non-Vulnerable)}$$
+  ```dax
+  SLA Disparity Gap (Days) = 
+  [Avg Resolution Time - Vulnerable (Days)] - [Avg Resolution Time - Non-Vulnerable (Days)]
+  ```
 
 ---
 
