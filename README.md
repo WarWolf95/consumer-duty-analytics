@@ -1,11 +1,11 @@
 # FCA Consumer Duty Outcome Monitoring & Analytics Platform
 
+[![Consumer Duty Analytics CI/CD Pipeline](https://github.com/WarWolf95/consumer-duty-analytics/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/WarWolf95/consumer-duty-analytics/actions/workflows/ci.yml)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Database SQLite](https://img.shields.io/badge/Database-SQLite-003B57.svg)](https://www.sqlite.org/)
 [![Power BI Desktop](https://img.shields.io/badge/Power_BI-Desktop-F2C811.svg)](https://powerbi.microsoft.com/)
 [![Regulatory Standard FCA PS22/9](https://img.shields.io/badge/FCA_Reg-PS22%2F9_Consumer_Duty-701B45.svg)](https://www.fca.org.uk/firms/consumer-duty)
-[![CI/CD Pipeline](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF.svg)](.github/workflows/ci.yml)
-[![Build Status Passed](https://img.shields.io/badge/Tests-PyTest_Passed-brightgreen.svg)](tests/test_db.py)
 
 ---
 
@@ -192,3 +192,10 @@ python -m pytest
 ## Regulatory Reference & Compliance
 * **FCA Consumer Duty Policy Statement**: [PS22/9 (July 2022)](https://www.fca.org.uk/publication/policy/ps22-9.pdf)
 * **FCA Final Non-Handbook Guidance**: [FG22/5 (July 2022)](https://www.fca.org.uk/publication/finalised-guidance/fg22-5.pdf)
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
